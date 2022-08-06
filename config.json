@@ -1,0 +1,106 @@
+{
+  "data": {
+    "threadsToUse/speed": 64,
+
+    "minSnipeProfit": 100000,
+    "minCraftProfit": 100000,
+
+    "maxAvgLbinDiff": 0.35,
+    "rawCraftMaxWeightPP": 0.4,
+    "minSnipePP": 8,
+    "minCraftPP": 8,
+
+    "ignoreCategories": {
+      "weapon": false,
+      "accessories": true,
+      "armor": false,
+      "misc": false,
+      "blocks": false,
+      "consumables": true
+    },
+    "minSales": 4,
+    "includeCraftCost": true,
+    "minPriceForRawcraft": 5000000
+  },
+  "webhook": {
+    "discordWebhookUrl": "WEBHOOK_URL",
+    "webhookName": "Flipper",
+    "webhookPFP": "https://cdn.discordapp.com/avatars/486155512568741900/164084b936b4461fe9505398f7383a0e.png?size=4096"
+  },
+  "filters": {
+    "rawCraftIgnoreEnchants": {
+      "WITHER_": {
+        "growth": 6,
+        "protection": 6
+      },
+      "SHADOW_ASSASSIN": {
+        "growth": 6,
+        "protection": 6
+      },
+      "NECROMANCER": {
+        "growth": 6,
+        "protection": 6
+      },
+      "SHREDDED": {
+        "ultimate_soul_eater": 5
+      },
+      "GOLD_": {
+        "growth": 6,
+        "protection": 6
+      }
+    },
+    "badEnchants": {
+      "giant_killer": 6,
+      "growth": 6,
+      "power": 6,
+      "protection": 6,
+      "sharpness": 6,
+      "ender_slayer": 6,
+      "smite": 6,
+      "critical": 6,
+      "bane_of arthropods": 6,
+      "vampirism": 6,
+      "luck": 6,
+      "syphon": 4,
+      "ultimate_soul_eater": 3,
+      "ultimate_wise": 4,
+      "ultimate_wisdom": 4,
+      "ultimate_legion": 3
+    },
+    "nameFilter": [
+      "SALMON",
+      "PERFECT",
+      "BEASTMASTER",
+      "MASTER_SKULL",
+      "BLAZE",
+      "TITANIUM",
+      "SUPER_HEAVY",
+      "WAND_OF",
+      "FARM_ARMOR",
+      "PURE_MITHRIL",
+      "STEEL_CHESTPLATE",
+      "MIDAS",
+      "TRIBAL_SPEAR",
+      "POWER_SCROLL",
+      "_TRAVEL_SCROLL",
+      "ARTISINAL",
+      "ZOMBIE",
+      "CRYPT",
+      "SOULSTEALER",
+      "GUN",
+      "SPIRIT_DECOY",
+      "EXP",
+      "PET_SKIN",
+      "SEEKER",
+      "MOSQUITO",
+      "REVELATION",
+      "FRAGMENT",
+      "RECALL",
+      "HEAT_CORE",
+      "DIVER",
+      "SPONGE",
+      "CREEPER",
+      "CAKE_SOUL"
+    ]
+  }
+}
